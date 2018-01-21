@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.michl.communityboard.SendMessages">
+
+    <AutoCompleteTextView
+        android:id="@+id/TextBox"
+        android:layout_width="330dp"
+        android:layout_height="82dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="106dp"
+        android:layout_height="78dp"
+        android:text="Send"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="107dp"
+        android:layout_height="78dp"
+        android:text="Back"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="145dp" />
+</android.support.constraint.ConstraintLayout>
